@@ -1,7 +1,13 @@
 # CarND-P1-Finding-Lane-Lines
 ## Project Description
 
-The goal of the project is to detect lane lines on a road.
+The goal of the project is to detect lane lines on a road. The pipeline consists of the following steps:
+- Grayscale conversion.
+- Gaussian smoothing.
+- Edge detecting by using Canny algorithm.
+- Calculating region of interest.
+- Line detecting by using Hough transforming.
+- Picturing the lane lines.
 
 ## Project files
 
